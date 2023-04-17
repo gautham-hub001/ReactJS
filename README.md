@@ -6,11 +6,7 @@ state is if you are having like a counter and you update it based on previous co
 Note: React was created by Facebook
 
 Install the extension on VS code: ES7 + React/Redux/React-Native.
-You can use the shortcut rdc (react function code) and press enter to get readmade react snippet
-
-### Important concept in javascript - object/array deconstruction:
-
-https://www.youtube.com/watch?v=NIq3qLaHCIs
+You can use the shortcut rdc (react function code) and press enter to get readymade react snippet
 
 ## Create React app
 
@@ -43,3 +39,5 @@ axios.get('url') -> returns promise
 useEffect() -> takes a function and runs everytime react re-renders or based on the props that we pass changes
 
 cancelToken - Suppose if old request is processed after the new request, we should not load old data, so we can use cancelToken to cancel the old request so that only latest data gets shown to the user.
+
+Note: HTML code returned should all be enclosed under a root element. So, empty tag(<>) is generally used for this.
