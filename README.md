@@ -41,3 +41,7 @@ useEffect() -> takes a function and runs everytime react re-renders or based on 
 cancelToken - Suppose if old request is processed after the new request, we should not load old data, so we can use cancelToken to cancel the old request so that only latest data gets shown to the user.
 
 Note: HTML code returned should all be enclosed under a root element. So, empty tag(<>) is generally used for this.
+
+**Kill a aprocess running on port 3000**
+Find: `sudo lsof -i :3000`
+Kill: `kill -9 <PID>`
