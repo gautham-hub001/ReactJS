@@ -1,12 +1,13 @@
-### state vs props
+To create a new react app - npx create-react-app app-name
+or
+npm init react-app my-app
 
-props is if you want to pass some info like text (title, description). And each time the same component will have different title and desceription, so props is used.
-state is if you are having like a counter and you update it based on previous count(state), so we use state there.
+Then, cd app-name
+npm start
 
-Note: React was created by Facebook
+npm init react-app my-app
 
-Install the extension on VS code: ES7 + React/Redux/React-Native.
-You can use the shortcut rdc (react function code) and press enter to get readymade react snippet
+To build the app for production (minified code) - npm build
 
 ## Create React app
 
@@ -17,6 +18,16 @@ It will add all the biolderplate code, so you can delete all files in public fol
 ### `npm start`
 
 Runs the app in the development mode.
+
+### state vs props
+
+props is if you want to pass some info like text (title, description). And each time the same component will have different title and desceription, so props is used.
+state is if you are having like a counter and you update it based on previous count(state), so we use state there.
+
+Note: React was created by Facebook
+
+Install the extension on VS code: ES7 + React/Redux/React-Native.
+You can use the shortcut rdc (react function code) and press enter to get readymade react snippet
 
 ## Pokemon app
 
@@ -45,3 +56,5 @@ Note: HTML code returned should all be enclosed under a root element. So, empty 
 **Kill a aprocess running on port 3000**
 Find: `sudo lsof -i :3000`
 Kill: `kill -9 <PID>`
+
+To create a custom popup-
