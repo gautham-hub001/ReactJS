@@ -1,3 +1,8 @@
+Create 2 React.js apps in this repo:
+
+1. Pokemon app
+2. Currency converter app
+
 To create a new react app - npx create-react-app app-name
 or
 npm init react-app my-app
